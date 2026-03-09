@@ -3,7 +3,7 @@
         'name' => 'porterpods/contact-form',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '192a8b0c43e4b037bf2807ec9d541b2f22f5e358',
+        'reference' => '3146c8c3c00d0d28244365efbbb23ce384d1f2e1',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'porterpods/contact-form' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '192a8b0c43e4b037bf2807ec9d541b2f22f5e358',
+            'reference' => '3146c8c3c00d0d28244365efbbb23ce384d1f2e1',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
