@@ -1,0 +1,12 @@
+{
+    "name": "porterpods/contact-form",
+    "description": "Contact form for PorterPods",
+    "require": {
+        "phpmailer/phpmailer": "6.9"
+    },
+    "authors": [
+        {
+            "name": "PorterPods"
+        }
+    ]
+}
