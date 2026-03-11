@@ -210,3 +210,56 @@ section {
         font-size: 2rem;
     }
 }
+
+/* Modular Pod Layout Styles */
+.pod-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pod-block {
+    background-color: #f8f9fa;
+    border: 2px solid #dee2e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    color: #495057;
+    transition: all 0.3s ease;
+    padding: 15px;
+    min-height: 100px; /* Default for 12x24 */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.pod-block:hover {
+    border-color: var(--primary-color);
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.pod-24x24 {
+    min-height: 200px;
+    border-width: 3px;
+}
+
+.pod-title {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.layout-wrapper {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+    margin-bottom: 50px;
+}
